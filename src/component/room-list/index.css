@@ -1,0 +1,31 @@
+.room__block{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.room__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.room__title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+}
+.room__info{
+    font-size: 16px;
+
+}
+
+.room__price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}

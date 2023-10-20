@@ -1,4 +1,4 @@
-import index from "./index.css";
+import "./index.css";
 
 export default function Title({
   title,

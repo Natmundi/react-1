@@ -1,0 +1,11 @@
+.heading{
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+
+}
+
+.heading--border{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
