@@ -1,0 +1,37 @@
+.contact__form{
+    display: flex;
+    gap: 32px;
+}
+
+.contact__photo{
+    border-radius: 80px;
+}
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.contact__info-block{
+    display: flex;
+    gap: 20px;
+}
+.contact__description{
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5em;
+}
+.contact__info-value{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.contact__info-value:not(:last-child)::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}

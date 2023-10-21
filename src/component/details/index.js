@@ -20,8 +20,7 @@ function ListProperty({ guests, bedrooms, beds, baths }) {
   return (
     <ul className="details__list">
       <ListItem imageSrc={guest}>
-        <span>{guests}</span>
-        <span> гості</span>
+        <span>{guests} гості</span>
       </ListItem>
       <ListItem imageSrc={bedroom}>
         <span>{bedrooms} спальня</span>
